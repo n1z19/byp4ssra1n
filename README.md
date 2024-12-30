@@ -1,14 +1,14 @@
-# __**byp4ssra1n**__
+# **byp4ssra1n**
 
 jump setup on dualbooted devices and downgraded for ios 15, 14, 13
 
-__**Usage**__
+**Usage**
 
 Example: ./byp4ssr1n.sh --tethered 14.3 for downr1n or normal ios
 
 example ./byp4ssr1n.sh --dualboot 14.3 for dualra1n
 
-__**Options: --dualboot if you want bypass icloud in the dualboot use this:**__
+**Options: --dualboot if you want bypass icloud in the dualboot use this:**
  ./bypassr1n.sh --dualboot 14.3
 
 --jail_palera1n   Use this only when you already jailbroken with semitethered palera1n to avoid disk errors. ./bypassr1n.sh 
@@ -26,16 +26,15 @@ byp4ssra1n.sh --tethered 14.3
 --dfuhelper         A helper to help get A11 devices into DFU mode from recovery mode
 --debug             Debug the script
 
-__**or you can use the gui version, python3 gui.py**__
+**or you can use the gui version, python3 gui.py**
 
-__**depend of PyQt5, python3 -m pip install PyQt5**__
-__**Credits**__
+**depend of PyQt5, python3 -m pip install PyQt5**
+**Credits**
 
-__**palera1n**__for some of the code
+**palera1n** for some of the code
 
-__**verygenericname**__for the cool SSH Ramdisk
+**verygenericname** for the cool SSH Ramdisk
 
-__**Divise**__ thank you for the mobileactivationd
+**Divise** thank you for the mobileactivationd
 
-# __**Nami , THANK YOU FOR THE GUI.**__
-
+# **Nami , THANK YOU FOR THE GUI.**
