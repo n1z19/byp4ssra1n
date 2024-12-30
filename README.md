@@ -1,47 +1,41 @@
-# byp4ssra1n
+# __**byp4ssra1n**__
+
 jump setup on dualbooted devices and downgraded for ios 15, 14, 13
 
-# Usage
+__**Usage**__
 
-Example: ./byp4ssra1n.sh --tethered 14.3 for downr1n or normal ios
+Example: ./byp4ssr1n.sh --tethered 14.3 for downr1n or normal ios
 
-example ./byp4ssra1n.sh --dualboot 14.3 for dualra1n
+example ./byp4ssr1n.sh --dualboot 14.3 for dualra1n
 
-Options: 
-   --dualboot          if you want bypass icloud in the dualboot use this ./byp4ssra1n.sh --dualboot 14.3
-   
-    --jail_palera1n   Use this only when you already jailbroken with semitethered palera1n to avoid disk errors. ./byp4ssra1n.sh
-    
-    --dualboot 14.3  --jail_palera1n 
-    
-    --tethered            to bypass main ios, use this if you have checkra1n or palera1n tethered jailbreak (the device will bootloop if you try to boot without jailbreak). ./
-    byp4ssra1n.sh --tethered 14.3
+__**Options: --dualboot if you want bypass icloud in the dualboot use this:**__
+ ./bypassr1n.sh --dualboot 14.3
 
-    --backup-activations    this command will save your activations files into activationsBackup/. so later you can restore them
-    --restore-activations   this command will put your activations files into the device.
+--jail_palera1n   Use this only when you already jailbroken with semitethered palera1n to avoid disk errors. ./bypassr1n.sh 
 
-    --back              if you want to bring back i cloud you can use for example ./byp4ssra1n.sh    --tethered 14.3 --back (tethered you can change to kind of jailbreak like --semitethered or --dualboot)
+--dualboot 14.3  --jail_palera1n 
 
-    --dfuhelper         A helper to help get A11 devices into DFU mode from recovery mode
-    --debug             Debug the script
+--tethered            to bypass main ios, use this if you have checkra1n or palera1n tethered jailbreak (the device will bootloop if you try to boot without jailbreak). ./
+byp4ssra1n.sh --tethered 14.3
 
+--backup-activations    this command will save your activations files into activationsBackup/. so later you can restore them
+--restore-activations   this command will put your activations files into the device.
 
-_ _ _
+--back              if you want to bring back i cloud you can use for example ./bypassra1n.sh --tethered 14.3 --back (tethered you can change to kind of jailbreak like --semitethered or --dualboot)
 
+--dfuhelper         A helper to help get A11 devices into DFU mode from recovery mode
+--debug             Debug the script
 
-# or you can use the gui version, python3 gui.py
+__**or you can use the gui version, python3 gui.py**__
 
-- depend of PyQt5, pip3 install PyQt5
+__**depend of PyQt5, python3 -m pip install PyQt5**__
+__**Credits**__
 
+__**palera1n**__for some of the code
 
-# Credits
+__**verygenericname**__for the cool SSH Ramdisk
 
-- [palera1n](https://github.com/palera1n) for some of the code
+__**Divise**__ thank you for the mobileactivationd
 
-- [verygenericname](https://github.com/verygenericname) for the cool SSH Ramdisk
+# __**Nami , THANK YOU FOR THE GUI.**__
 
-- [Brayan-Villa](https://github.com/Brayan-Villa/iOS15-Bypass-Hello) for the amazing idea
-
-- [Divise](https://github.com/MatthewPierson/Divise) thank you for the mobileactivationd
-
--  [RIFOX], THANK YOU FOR THE GUI.
